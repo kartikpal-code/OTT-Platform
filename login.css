@@ -1,0 +1,116 @@
+/* General Reset and Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0c111b; /* Deep blue/black background, similar to Hotstar */
+    color: #f9f9f9; /* Light text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px; /* A focused, mobile-friendly width */
+    padding: 40px 30px;
+    background-color: #1a2237; /* Slightly lighter background for the login box */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Logo Styling */
+.logo h1 {
+    color: #00a0dc; /* A bright, recognizable color for the logo/brand name */
+    font-size: 32px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* Form Heading */
+.login-form h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #f9f9f9;
+}
+
+/* Input Group Styling for floating labels */
+.input-group {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 12px 5px 12px; /* Top padding to make space for the label */
+    background: #0c111b;
+    border: 1px solid #3d4a6a;
+    border-radius: 4px;
+    color: #f9f9f9;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #00a0dc;
+}
+
+/* Label Styling (Hotstar style uses a label that moves/floats) */
+.input-group label {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color: #9097ab;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.2s ease-out;
+}
+
+/* Floating Label effect */
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: 3px;
+    font-size: 12px;
+    color: #00a0dc;
+}
+
+/* Continue Button Styling */
+.continue-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00a0dc; /* Primary brand color */
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.continue-button:hover {
+    background-color: #008cc9;
+}
+
+/* Sign-up/Subscription Text */
+.signup-text {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #9097ab;
+}
+
+.signup-text a {
+    color: #00a0dc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
