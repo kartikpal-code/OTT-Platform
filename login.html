@@ -14,10 +14,18 @@
 
         <div class="login-form">
             <h2>Log in to continue</h2>
-            <form>
+
+            <!-- Redirect using form action (No JavaScript used) -->
+            <form action="index.html" method="get">
+                
                 <div class="input-group">
-                    <input type="text" id="email" required>
-                    <label for="email">Enter your Email or Mobile Number</label>
+                    <input type="text" id="username" required>
+                    <label for="username">Enter Username or Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Enter Password</label>
                 </div>
 
                 <button type="submit" class="continue-button">
@@ -30,3 +38,5 @@
     </div>
 </body>
 </html>
+
+
