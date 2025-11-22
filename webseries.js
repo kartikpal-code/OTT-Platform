@@ -1,4 +1,4 @@
-function openPopup(title, info, desc, img, link) {
+  function openPopup(title, info, desc, img, link) {
   document.getElementById("popup-title").innerText = title;
   document.getElementById("popup-info").innerText = info;
   document.getElementById("popup-desc").innerText = desc;
