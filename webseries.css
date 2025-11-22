@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  margin: 28px;
+  color: white;
+  overflow-x: hidden;
+}
+
+.Mainimage {
+  width: 100%;
+  height:420px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.h2text {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.movies-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 40px;
+}
+
+.movies-row::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-card {
+  width: 190px;
+  height: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card p {
+  text-align: center;
+  font-size: 16px;
+}
