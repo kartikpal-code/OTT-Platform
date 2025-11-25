@@ -9,9 +9,9 @@ body {
 
 .Mainheading h1 {
   position: fixed;
-  top: 60px;                  /* distance from top */
-  left: 50%;                  /* move to center horizontally */
-  transform: translateX(-50%);/* perfectly center */
+  top: 20px;
+  left: 50%;             
+  transform: translateX(-50%);
   font-size: 38px;
   color: white;
 }
