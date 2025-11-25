@@ -3,12 +3,17 @@ body {
   margin: 28px;
   color: white;
   overflow-x: hidden;
+  padding-top: 110px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .Mainimage h1 {
-  text-align: center;
-  margin: 40px;
+  position: fixed;
+  top: 20px;
+  left: 50%;             
+  transform: translateX(-50%);
+  font-size: 38px;
+  color: white;
 }
 
 .h2text {
@@ -134,4 +139,31 @@ body {
   float: right;
   font-size: 30px;
   cursor: pointer;
+}
+
+
+
+
+
+
+
+/*New changes*/
+.search-bar {
+  position: fixed;
+  top: 25px;               /* distance from top */
+  right: 20px;           /* stick to the right side */
+  z-index: 999;
+}
+
+.search-bar input {
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);   /* transparent black */
+  color: white;                     /* white text */
+  font-size: 16px;
+}
+
+.search-bar input::placeholder {
+  color: #ccc;
 }
