@@ -135,3 +135,40 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
+.logo img {
+    height: 50px;
+    width: auto;
+    cursor: pointer;}
+
+
+     footer{
+            text-align:center;
+            padding:10px;
+            background:black;
+            color:white;
+        }
+
+        .about{
+            text-align:center;
+            background:white;
+            padding:20px;
+            margin:20px;
+            border-radius:10px;
+        }
+
+         header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 30px;
+            background:black;
+            color:white;
+        }
+
+        .search-bar input{
+            padding:6px 10px;
+            width:200px;
+            border-radius:4px;
+            border:none;
+        }
